@@ -1,23 +1,23 @@
-package goals;
+package Records;
 
 import java.util.ArrayList;
 
 public class ArrayGoalsStandard implements ArrayGoals{
 
-    ArrayList<Goals> goals;
+    ArrayList<Record> goals;
 
     @Override
-    public ArrayList<Goals> printGoals() {
+    public ArrayList<Record> printGoals() {
         return goals;
     }
 
     @Override
-    public void deleteGoal(Goals goal) {
+    public void deleteGoal(Record goal) {
         goals.remove(goal);
     }
 
     @Override
-    public void addGoal(Goals goal) {
+    public void addGoal(Record goal) {
         goals.add(goal);
     }
 }
