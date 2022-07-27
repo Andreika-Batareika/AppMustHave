@@ -1,5 +1,13 @@
 package control;
 
+/**
+ * Перечисление типа статуса запроса
+ * @author Andrew
+ * @version 0.1
+ */
 public enum TypeStatus {
-    COMPLETE, NON_COMPLETE, IN_PROCESS, FREE
+    COMPLETE            // Выполнен
+    , NON_COMPLETE      // Не выполнен
+    , IN_PROCESS        // В процессе выполнения
+    , FREE              // Свободный
 }

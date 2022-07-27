@@ -1,17 +1,36 @@
 package Records;
 
+/**
+ * Класс редактирования записи
+ * @author Andrew
+ * @version 0.1
+ */
 public class EditerRecord {
 
-    SaverRecord saverGoal;
-    void deleteRecord(Record goal) {
+    /** Объект сохранения записи */
+    SaverRecord saverRecord;
+
+    /**
+     * Процедура удаления записи
+     * @param record - запись
+     */
+    void deleteRecord(Record record) {
 
     }
 
-    void addRecord(Record goal) {
+    /**
+     * Процедура добавления записи
+     * @param record - запись
+     */
+    void addRecord(Record record) {
 
     }
 
-    void editRecord(Record goal) {
+    /**
+     * Процедура редактирования записи
+     * @param record - запись
+     */
+    void editRecord(Record record) {
 
     }
 }

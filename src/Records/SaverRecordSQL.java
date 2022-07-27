@@ -6,7 +6,7 @@ import control.Instruction;
 
 /**
  * Класс сохранения записи в SQL.
- * @autor Andrew
+ * @author Andrew
  * @version 0.1
  */
 public class SaverRecordSQL implements SaverRecord {
@@ -25,10 +25,7 @@ public class SaverRecordSQL implements SaverRecord {
     public void saveRecords(List<Record> listRecords){
 
     }
-    @Override
-    public void saveRecord(Record record){
 
-    }
     /**
      * Процедура Соединения с БД
      * @param instruction - Инструкция команд
